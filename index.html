@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Split Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Split Calculator</h1>
+  <div class="container">
+    <label for="totalAmount">Total Amount:</label>
+    <input type="number" id="totalAmount" min="0" step="0.01">
+    <br>
+    <label for="numberOfPeople">Number of People:</label>
+    <input type="number" id="numberOfPeople" min="1">
+    <br>
+    <button onclick="calculateSplit()">Calculate</button>
+    <br>
+    <h2 id="splitAmount"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
